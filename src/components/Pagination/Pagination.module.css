@@ -1,0 +1,33 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 90vw;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+.pagination .selected {
+  background-color: #f2f2f2;
+  color: #242424;
+}
+.pagination button {
+  padding: 8px 12px;
+  background-color: #242424;
+  color: #fff;
+  border: 1px solid #242424;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button.selected {
+  padding: 8px 12px;
+  background-color: #f2f2f2;
+  color: #242424;
+  border: 1px solid #242424;
+  border-radius: 5px;
+  cursor: pointer;
+}
